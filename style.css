@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.title{
+    margin: 10px;
+    padding:5px;
+    text-align: center;
+    background-color:rgb(226, 79, 160);
+    height:20px;
+    width:40%;
+    display: inline-block;
+    margin-left:20%;
+    padding-left:8%;
+    padding-right:8%;
+    padding-bottom:10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.subscription{
+    display:flex;
+    padding: 5px;
+    gap: 40px;
+    justify-content: center;
+    margin-top:20px;
+    margin-left:-2%;
+
+}
+.subscription__zero,.subscription__standard,.subscription__premium{
+    height:250px;
+    width:250px;
+    background-color:black;
+    border:2px black solid;
+    color: white;
+    text-align: center;
+    padding-top:8px;
+    border-radius:10px;
+}
+.subscription__offers{
+    padding:5px;
+    width:65%;
+    height:60%;
+    border: 2px white solid;
+    border-radius:5px;
+    margin-top:1%;
+    margin-left: 12%;
+    text-align: justify;
+    padding: 5%;
+    font-family: "Poppins", sans-serif;
+    font-weight:50;
+    font-style: normal;
+
+}
+img{
+    width:8%;
+}
