@@ -26,6 +26,7 @@
     justify-content: center;
     margin-top:20px;
     margin-left:-2%;
+    flex-wrap: wrap;
 
 }
 .subscription__zero,.subscription__standard,.subscription__premium{
